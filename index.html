@@ -1,107 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
-<!-- HEADER SECTION wtoQQ -->
 <head>
-    <meta charset="utf-8" />
-    <title>JUST DO IT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration panel v1</title>
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/Glyphter.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
-<!-- // SIDEBAR SECTION HERE  / 1rd section -->
 <body>
+
+    <!-- SIDEBAR SECTION /1st -->
     <section class="sidebar">
-        <div class="sidemenu">
-            <div class="navigation_header_wrapper">
-                <h1 class="logo-header">JUST DO IT</h1>
+        <div class="sidenav">
+            <div class="nav_header">
+                <h1 class="head_logo">Just do it</h1>
+                <a href="#"> <i class="fas fa-bars"></i></a>
             </div>
-            <div class="navigation_menu-wrapper">
-                <ul class="navigation_list">
-                    <li class="navigation_mark">
-                        <a href="#GENERAL"> <i class="icon-general"></i> #General</a>
+            <div class="nav_main_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#GENERAL"> <i class="icon-general"></i> General</a>
                     </li>
-                    <li class="navigation_mark">
-                        <a href="#DETAILS"><i class="icon-details"></i> #Details</a>
+                    <li class="nav_item">
+                        <a href="#DETAILS"><i class="icon-details"></i> Details</a>
                     </li>
-                    <li class="navigation_mark">
-                        <a href="#LINKS"><i class="icon-links"></i> #Links</a>
+                    <li class="nav_item">
+                        <a href="#LINKS"><i class="icon-links"></i> Links</a>
                     </li>
-                    <li class="navigation_mark">
-                        <a href="#BANNERS"><i class="icon-links"></i> #BANNERS</a>
+                    <li class="nav_item">
+                        <a href="#BANNERS"><i class="icon-banners"></i> Banners</a>
                     </li>
-                    <li class="navigation_mark">
-                        <a href="#PERSONAL DATA"><i class="icon-personaldata"></i> #Personal Data</a>
+                    <li class="nav_item">
+                        <a href="#PERSONAL-DATA"><i class="icon-personaldata"></i> Personal Data</a>
                     </li>
-                    <li class="navigation_mark">
-                        <a href="#PAYOUT"><i class="icon-payout"></i> #Payout</a>
+                    <li class="nav_item">
+                        <a href="#PAYOUT"><i class="icon-payout"></i> Payout</a>
                     </li>
-                    <li class="navigation_mark">
-                        <a href="#POSTBACK"> <i class="icon-postback"></i> #Postback</a>
+                    <li class="nav_item">
+                        <a href="#POSTBACK"> <i class="icon-postback"></i> Postback</a>
                     </li>
                 </ul>
             </div>
-            <div class="navigation_yourmanager">
+            <div class="nav_manager">
                 <h2>YOUR MANAGER</h2>
-                <a href="#">
-                    <div class="manager__data">
-                        <img src="your manager.jpg" alt="your manager picture">
-                        <p>Marco Mello</p>
+                <div class="info_man">
+                    <img src="images/Babiczka.jpg" alt="manager" />
+                    <p>Grandma G.</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TOP MENU SECTION / 2rd -->
+    <section id="main-container">
+        <div class="main_all_container">
+            <div class="navi_top">
+                <div class="main_mobile">
+                    <div class="logo_mobile">
                     </div>
-                </a>
-            </div>
-        </div>
-    </section>
+                </div>
 
-<!-- // TOP NAVIGATION MENU HERE / 2rd section -->
-    <section class="page_container">
-        <div class="top_navigation-menu">
-            <div class="top_menu">
+                <div class="menu_top">
+                    <div id="wallet" class="menu_top_icon1 ">
+                        <i class="icon-wallet"></i>
+                        <h3 class="wallet">$1,500.00</h3>
+                        <i class="icon-arrow-down-small"></i>
+                    </div>
+                    <div id="notification" class="menu_top_icon1">
+                        <div class="notification">
+                            <i class="icon-notification"></i>
+                            <div class="notification-dot"></div>
+                        </div>
+                    </div>
+
+                    <div id="user" class="menu_top_icon">
+                        <i class="icon-profile"></i>
+                        <p class="user">Leonardo Dicaprio</p>
+                    </div>
+                    <div id="logout" class="menu_top_icon">
+                        <i class="icon-quit"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="top_navigation-icon">
-                <i class="icon-wallet"></i>
-                <h3 class="wallet">$1,500.00</h3>
-                <i class="icon-arrow-down-small"></i>
-            </div>
-            <div class="top_navigation-icon">
-                <i class="icon-notification"></i>
-            </div>
-            <div class="top_navigation-icon">
-                <i class="icon-main"></i>
-                <p class="user">Leonardo Dicaprio</p>
-            </div>
-            <div class="top_navigation-icon">
-                <a href="#">
-                    <i class="icon-quit"></i>
-                </a>
-            </div>
-        </div>
-        </div>
-    </section>
 
 
-<!-- //GENERAL CONTAINER HERE / 3rd section -->
-    <section id="general">
-        <div class="main-container">
-            <div class="date-period-wrapper">
-                <button class="button_smallsize"></button>
+            <!-- MAIN INFO CONTAINER / 3rd -->
+            <div id="GENERAL" class="gen_cont">
+                <div class="page-header">
+                    <h2 class="page-title">GENERAL STATISTIC</h2>
+                </div>
             </div>
-            <div class="chart-wrapper">
-                <button class="button_firstcolor_tab_1"></button><br/>
-            </div>
-        </div>
-    </section>
-    <section id="links">
-        <div class="main-container">
-            <button class="button-largesize"></button>
-            <table class="tablesect">
-                <tr>
-                    <td>123 test</td>
-                </tr>
-            </table>
-        </div>
     </section>
 </body>
 
