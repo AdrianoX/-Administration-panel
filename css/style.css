@@ -340,7 +340,6 @@ template {
   display: none;
 }
 
-/* ======== NAVBAR CONTAINER ========== */
 .sidenav {
   height: 100%;
   width: 240px;
@@ -357,7 +356,7 @@ template {
 .head_logo {
   /* font-family: "Satisfy", cursive; */
   /* font-family: 'Gloria Hallelujah', cursive; */
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   color: #ffffff;
   font-size: 24px;
   margin-left: 25px;
@@ -466,7 +465,7 @@ img {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   font-family: "Open Sans", Helvetica, Arial;
   color: #979797;
   width: 100%;
@@ -542,13 +541,87 @@ body {
   border-bottom: 2px solid #e3e3e3;
 }
 
+.gen_cont .date_ranger_picker {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 40px auto;
+  border-bottom: 0.5px solid #979797;
+  background-color: #ffffff;
+}
+
+.date_calendar {
+  -ms-flex-pack: center;
+      justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: solid 0.5px #979797b0;
+}
+
+.refresh_btn {
+  width: 40px;
+  margin: 0 auto;
+  background-color: #F58220;
+  border: none;
+  border-radius: 5%;
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.refresh_btn .icon-refresh {
+  text-align: center;
+  margin: 0;
+}
+
+.refresh_btn:hover {
+  background-color: #231f1f;
+}
+
+.gen_cont input {
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #979797;
+  font-size: 14px;
+  text-align: center;
+  width: 170px;
+  border: 0.5px solid #979797;
+}
+
+.table_options {
+  border-spacing: 25px;
+  margin: 0 auto;
+  width: 70%;
+  /* border-top: 0.5px solid #979797 ; */
+  border-top-width: 100%;
+}
+
+.table_options tr td {
+  position: relative;
+  padding: 0;
+  border-bottom: 0.5px solid #E3E3E3;
+  width: auto;
+}
+
+.table_options tr td h3,
+.table_options tr td p {
+  display: inline;
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #979797;
+}
+
+.table_options tr td p {
+  position: absolute;
+  right: 0;
+  margin: 0;
+}
+
 .page-header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 100%;
-  /* border-bottom: solid 0.5px #979797; */
+  border-bottom: solid 0.5px #979797b0;
   margin-bottom: 5px;
 }
 

@@ -1,58 +1,57 @@
-
-// ================TOP CONTAINER=====================
 .navi_top {
-    position: fixed;
-    height: 50px;
-    background-color: #ffffff;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-    flex-shrink: 0;
-    font-family: "Open Sans", Helvetica, Arial;
-    color: #979797;
-    width: 100%;
-  }
-  
-  .menu_top {
-    display: -ms-flexbox;
-    display: flex;
-    width: auto;
-  }
-  
-  .menu_top_icon,
-  .menu_top_icon1 {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-align: center;
-    align-items: center;
-    text-decoration: none;
-    border-left: 1px solid #e3e3e3;
-  }
-  
-  .notification {
-    position: relative;
-  }
-  
-  .notification .notification-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background-color: #f58220;
-    z-index: 2;
-    position: absolute;
-    top: -2px;
-    right: 20px;
-  }
-  
-  i {
-    margin: 0 20px;
-  }
-  
-  .user {
-    margin-right: 20px;
-    cursor: pointer;
-    text-decoration: none;
-  }
+  position: fixed;
+  height: 50px;
+  background-color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #979797;
+  width: 100%;
+}
+
+.menu_top {
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+
+.menu_top_icon,
+.menu_top_icon1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  border-left: 1px solid #e3e3e3;
+}
+
+.notification {
+  position: relative;
+}
+
+.notification .notification-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #f58220;
+  z-index: 2;
+  position: absolute;
+  top: -2px;
+  right: 20px;
+}
+
+i {
+  margin: 0 20px;
+}
+
+.user {
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}

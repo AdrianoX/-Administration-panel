@@ -1,115 +1,115 @@
-  /* ======== NAVBAR CONTAINER ========== */
-  .sidenav {
-    height: 100%;
-    width: 240px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-  }
-  
-  .head_logo {
-    font-family: 'Indie Flower', cursive;
-    color: #ffffff;
-    font-size: 24px;
-    margin-left: 25px;
-  }
-  
-  .nav_main_menu {
-    margin-left: 0;
-    margin-bottom: -25px;
-  }
-  
-  .nav_header {
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 100%;
-  }
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
 
-  .nav_header i.fas.fa-bars {
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 25px;
-    margin-left: 75px;
-    margin-bottom: 5px;
-  }
-  
-  .nav_list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .nav_item {
-    font-size: 15px;
-    font-family: "Open Sans", Helvetica, Arial;
-    color: #979797;
-    padding: 14px;
-    cursor: pointer;
-  }
-  
-  .nav_item a {
-    text-decoration: none;
-    color: #979797;
-  }
-  
-  .nav_item i {
-    margin-right: 10px;
-  }
-  
-  .nav_manager {
-    font-family: monospace;
-    color: rgba(255, 255, 255, 0.637);
-    text-align: left;
-    margin-top: 40px;
-    padding-left: 25px;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    border-top: 0.5px solid #979797e3;
-  }
-  
-  .nav_manager {
-    padding: 10;
-  }
-  
-  .nav_item:hover {
-    border-left: 4px solid orange;
-    color: #ffffff;
-    background-color: #231f1f;
-  }
-  
-  img {
-    position: relative;
-    display: inline-block;
-    width: 55px;
-    border-radius: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    height: 55px;
-  }
-  
-  .info_man {
-    position: relative;
-    font-size: 18px;
-    font-family: monospace;
-    text-decoration: none;
-    color: #56819f;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
-  .info_man p {
-    margin-left: 15px;
-    letter-spacing: -2px;
-  }
+.head_logo {
+  /* font-family: "Satisfy", cursive; */
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  font-family: "Indie Flower", cursive;
+  color: #ffffff;
+  font-size: 24px;
+  margin-left: 25px;
+}
+
+.nav_main_menu {
+  margin-left: 0;
+  margin-bottom: -25px;
+}
+
+.nav_header {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav_header i.fas.fa-bars {
+  color: rgba(255, 255, 255, 0.712);
+  font-size: 25px;
+  margin-left: 75px;
+  margin-bottom: 5px;
+}
+
+.nav_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav_item {
+  font-size: 15px;
+  font-family: "Open Sans", Helvetica, Arial;
+  color: #979797;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.nav_item a {
+  text-decoration: none;
+  color: #979797;
+}
+
+.nav_item i {
+  margin-right: 10px;
+}
+
+.nav_manager {
+  font-family: monospace;
+  color: rgba(255, 255, 255, 0.637);
+  text-align: left;
+  margin-top: 40px;
+  padding-left: 25px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  border-top: 0.5px solid #979797e3;
+}
+
+.nav_manager {
+  padding: 10;
+}
+
+.nav_item:hover {
+  border-left: 4px solid orange;
+  color: #ffffff;
+  background-color: #231f1f;
+}
+
+img {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  border-radius: 100%;
+  object-fit: cover;
+  height: 55px;
+}
+
+.info_man {
+  position: relative;
+  font-size: 18px;
+  font-family: monospace;
+  text-decoration: none;
+  color: #56819f;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.info_man p {
+  margin-left: 15px;
+  letter-spacing: -2px;
+}

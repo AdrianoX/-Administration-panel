@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administration panel v1</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="vendor/css/Glyphter.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -93,11 +95,54 @@
 
 
             <!-- MAIN INFO CONTAINER / 3rd -->
-            <div id="GENERAL" class="gen_cont">
+            <div id="General" class="gen_cont">
                 <div class="page-header">
-                    <h2 class="page-title">GENERAL STATISTIC</h2>
+                    <h2 class="page-title">General Statistics</h2>
                 </div>
-            </div>
+              <div class="date_calendar">
+                <div class="date_ranger_picker">
+                    <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+
+                    <button class="refresh_btn">
+                        <i class="icon-refresh"></i>
+                    </button>
+
+                </div>
+              </div>
+                <table class="table_options">
+                    <tr>
+                        <td class="Visit signups">
+                            <h3>Visit signups</h3>
+                            <p>124</p>
+                        </td>
+                        <td class="Net deposit">
+                            <h3>Net deposit</h3>
+                            <p>564</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FTD">
+                            <h3>FTD</h3>
+                            <p>445</p>
+                        </td>
+                        <td class="TurnOver">
+                            <h3>Turn over</h3>
+                            <p>435</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <div></div>
+
+
+
+
+
     </section>
-  </body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
