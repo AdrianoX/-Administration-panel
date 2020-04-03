@@ -19,6 +19,10 @@
   width: auto;
 }
 
+.menu_top i {
+    cursor: pointer;
+}
+
 .menu_top_icon,
 .menu_top_icon1 {
   display: -ms-flexbox;
@@ -29,6 +33,14 @@
   align-items: center;
   text-decoration: none;
   border-left: 1px solid #e3e3e3;
+}
+
+.menu_top_icon:hover {
+  background-color: rgb(243, 241, 241);
+}
+
+.menu_top_icon1:hover {
+  background-color: rgb(243, 241, 241);
 }
 
 .notification {
@@ -50,4 +62,18 @@
   margin-right: 20px;
   cursor: pointer;
   text-decoration: none;
+  color: rgb(0, 76, 255);
 }
+
+
+.wallet,
+.notification,
+.logout {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+// .logout {
+//   cursor: pointer;
+//   text-decoration: none;
+// }
