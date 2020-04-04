@@ -1,0 +1,96 @@
+    //   =============== BANNERS SECTIOn ==============================
+
+    .banners_main_cont {
+        display: -ms-flexbox;
+        display: flex;
+        margin: 9px 18px;
+        background-color: #ffffff;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-grid-column-align: center;
+        justify-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 16px;
+        margin: 22px 18px 11px 260px;
+      }
+      
+      .new_btn_banners {
+        margin: 22px auto;
+      }
+      
+      .new_btn_banners .add-btn {
+        width: 125px;
+        margin: 0 auto;
+        background-color: #f58220;
+        border: none;
+        border-radius: 5%;
+        font-family: "Open Sans", Helvetica, Arial;
+        color: #ffffff;
+        padding: 10px 20px;
+      }
+      
+      .new_btn_banners .add-btn:hover {
+        background-color: #d86c07;
+      }
+      
+      .tbody {
+        margin: auto;
+      }
+      
+      .main_banners {
+        display: -ms-flexbox;
+        display: flex;
+        font-weight: bold;
+        color: #979797;
+        font-family: "Open Sans", Helvetica, Arial;
+        border-collapse: collapse;
+        margin: auto;
+        border-top: solid 2px #e3e3e3;
+      }
+      
+      .main_banners tr {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        border-bottom: solid 2px #e3e3e3;
+        cursor: pointer;
+        margin-top: 15px;
+      }
+      
+      .main_banners tr td {
+        width: 420px;
+        padding: 10px 0;
+        margin-left: 10px;
+      }
+      
+      .main_banners tr td a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #9ab3c5;
+      }
+      
+      .main_banners tr .main_banners_icons {
+        width: auto;
+        opacity: 0;
+      }
+      
+      .main_banners tr .main_banners_icons:hover {
+        width: auto;
+        opacity: 1;
+        color: gray;
+      }
+      
+      .main_banners tr .main_banners_icons .icon-links {
+        /* color: #F58220; */
+        margin-right: 20px;
+      }
+      
+      .main_banners tr:hover {
+        background-color: #e3e3e3;
+      }
+      
+      .main_banners tr i:hover {
+        color: #f58220;
+      }
