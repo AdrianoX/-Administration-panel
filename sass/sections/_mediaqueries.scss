@@ -1,82 +1,156 @@
-@media screen and (min-width: 1025px) and (max-width: 1253px) {
-    .main__all-container {
-        width: 100%;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: 0;
-      }
-      .gen_cont {
-        margin: 59px 18px 0 18px;
-        width: 100%;
-      }
-}
+// @media screen and (min-width: 1025px) and (max-width: 1253px) {
+//     .main__all-container {
+//         width: 100%;
+//         display: -ms-flexbox;
+//         display: flex;
+//         -ms-flex-direction: column;
+//         flex-direction: column;
+//         margin: 0;
+//       }
+//       .gen_cont {
+//         margin: 59px 18px 0 18px;
+//         width: 100%;
+//       }
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .main__all-container {
+// @media screen and (min-width: 768px) and (max-width: 1024px) {
+//   .main__all-container {
+//     width: 100%;
+//     display: -ms-flexbox;
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0;
+//   }
+//   .navi_top {
+//     width: 100%;
+//     justify-content: space-around;
+//     flex-direction: row;
+//     align-items: center;
+//   }
+
+//   .gen_cont {
+//     margin: 59px 18px 0 18px;
+//     width: 100%;
+//   }
+
+//   .sidenav {
+//     display: none;
+//     font-size: 1.5vw;
+//     position: relative;
+//     transform: translateX(0);
+//     transform: translate3d(0, 0, 0);
+//   }
+
+//   .links_main_cont {
+//     margin: 59px 18px 0 48px;
+//     width: 100%;
+//     align-items: baseline;
+//   }
+// }
+
+// @media screen and (min-width: 376px) and (max-width: 767px) {
+//   .gen_cont {
+//     width: 100%;
+//   }
+//   .links_main_cont {
+//     width: 100%;
+//     margin: 59px 18px 0 18px;
+//   }
+//   .sidenav {
+//     display: none;
+//     font-size: 1.5vw;
+//     position: relative;
+//     transform: translateX(0);
+//     transform: translate3d(0, 0, 0);
+//   }
+// }
+
+// @media screen and (min-width: 320px) and (max-width: 375px) {
+//   .gen_cont {
+//     width: 100%;
+//     margin: 59px 18px 0 18px;
+//   }
+//   .links_main_cont {
+//     width: 100%;
+//     margin: 59px 18px 0 18px;
+//   }
+//   .sidenav {
+//     display: none;
+//     font-size: 1.5vw;
+//     position: relative;
+//     transform: translateX(0);
+//     transform: translate3d(0, 0, 0);
+//   }
+// }
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    // display: none;
+    font-size: 1.5vw;
+    position: relative;
+    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
+    padding: 0px;
     width: 100%;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin: 0;
+    max-width: 100%;
   }
+
+  .nav_main_menu, .nav_manager{
+      display: none;
+  }
+
+  .gen_cont {
+    // margin: 59px 18px 0 18px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    // margin-top: 10%;
+  }
+
+  .table_options {
+    width: 100%;
+  }
+
   .navi_top {
+    bottom: 0;
+    display: block;
+    position: fixed;
     width: 100%;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
   }
 
-  .gen_cont {
-    margin: 59px 18px 0 18px;
-    width: 100%;
+  .chart_statistic{
+      margin-top: -35px;
   }
 
-  .sidenav {
-    display: none;
-    font-size: 1.5vw;
-    position: relative;
-    transform: translateX(0);
-    transform: translate3d(0, 0, 0);
+  .chart_statistic h3 {
+    width: 100%;
+    padding-left: 10%;
   }
 
-  .links_main_cont {
-    margin: 59px 18px 0 48px;
+  .chart_statistic img {
     width: 100%;
+    margin: 0;
   }
-}
 
-@media screen and (min-width: 376px) and (max-width: 767px) {
-  .gen_cont {
-    width: 100%;
+  .signupss,
+  .ftd,
+  .earned {
+    margin: 10px 10px;
   }
-  .links_main_cont {
-    width: 100%;
-  }
-  .sidenav {
-    display: none;
-    font-size: 1.5vw;
-    position: relative;
-    transform: translateX(0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
-  .gen_cont {
+  .main_container {
+    padding: 0;
     width: 100%;
-    margin: 59px 18px 0 18px;
+
   }
-  .links_main_cont {
+
+  .main__all-container {
     width: 100%;
-  }
-  .sidenav {
-    display: none;
-    font-size: 1.5vw;
-    position: relative;
-    transform: translateX(0);
-    transform: translate3d(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 }
