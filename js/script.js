@@ -14,4 +14,6 @@ $(function() {
 });
 
 
-  
+document.querySelector('.hamburger-btn').addEventListener('click', function() {
+  document.querySelector('.sidenav').classList.toggle('active');
+});
