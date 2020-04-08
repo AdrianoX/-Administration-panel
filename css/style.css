@@ -805,11 +805,11 @@ body i {
     width: 100%;
     overflow: hidden;
     padding: 0;
-    position: fixed;
+    position: inherit;
   }
   .sidenav.active {
     height: auto;
-    position: fixed;
+    position: inherit;
   }
   .sidenav .navi_top {
     display: block;
@@ -867,6 +867,47 @@ body i {
   }
   .links_main_cont .page-header {
     margin-top: 0;
+  }
+  .links_main_cont .main_links tr {
+    display: table-footer-group;
+    width: auto;
+  }
+  .links_tabs {
+    width: auto;
+  }
+  .links_main_cont .new_btn_links {
+    margin: 11px auto;
+  }
+  .main_all_container {
+    overflow: hidden;
+  }
+  body {
+    box-sizing: border-box;
+    background: border-box;
+  }
+  body .banners_main_cont {
+    display: none;
+  }
+  body .display_cont {
+    display: none;
+  }
+  .menu_top {
+    justify-content: space-around;
+  }
+  body i .navi_top {
+    margin: 7px;
+  }
+  .menu_top .notification {
+    margin-left: -1px;
+  }
+  .menu_top i {
+    margin: 10px;
+  }
+  .menu_top_icon .user p {
+    margin-left: 10px;
+  }
+  .menu_top_icon1 .wallet {
+    border: none;
   }
 }
 
@@ -955,7 +996,6 @@ body i {
   background-color: #ffffff;
   margin: 25px 18px 11px 260px;
   border-bottom: 2px solid #e3e3e3;
-  display: none;
 }
 
 .display_cont .date_ranger_picker {
@@ -1073,7 +1113,6 @@ body i {
   align-items: center;
   font-size: 16px;
   margin: 22px 18px 11px 260px;
-  display: none;
 }
 
 .new_btn_banners {
