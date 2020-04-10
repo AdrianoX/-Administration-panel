@@ -944,6 +944,45 @@ body i {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .gen_cont {
+    width: 100%;
+  }
+  .links_main_cont {
+    width: 100% !important;
+    align-items: flex-start;
+  }
+  .links_main_cont .links_tabs {
+    text-align-last: center;
+  }
+  .main_links tbody {
+    width: 700px;
+  }
+  .banners_main_cont {
+    width: inherit;
+    align-items: flex-start;
+    width: 98% !important;
+  }
+  .banners_main_cont .banners_tabs {
+    text-align-last: center;
+  }
+  .main_banners tbody {
+    width: 700px;
+  }
+  .navi_top {
+    z-index: 1;
+  }
+  .sidenav {
+    z-index: 2;
+  }
+  .display_cont {
+    width: 100% !important;
+  }
+  .main_all_container {
+    width: 98%;
+  }
+}
+
 .scroll-wrapper {
   display: block;
   width: 100%;
