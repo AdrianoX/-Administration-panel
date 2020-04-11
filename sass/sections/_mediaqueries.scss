@@ -35,21 +35,11 @@
     display: block;
   }
 
-  // .nav_main_menu, .nav_manager{
-  //     display: none;
-  // }
-
   .gen_cont {
-    // margin: 59px 18px 0 18px;
     margin: 0;
     width: 100%;
     height: 100%;
-    // margin-top: 10%;
   }
-
-  //   .gen_cont .page-header{
-  //       margin-top: 0;
-  //   }
 
   .table_options {
     width: 100%;
@@ -94,10 +84,6 @@
     margin: 0;
   }
 
-  //   .main_all_container p{
-  //       font-size: 5px;
-  //   }
-
   .links_main_cont .page-header {
     margin-top: 0;
   }
@@ -117,8 +103,6 @@
 
   .main_links {
     width: min-content;
-    //   text-align: center;
-    //   padding-left: 50px;
   }
 
   .main_links tr td {
@@ -160,14 +144,6 @@
     margin: 5px;
   }
 
-  //   .main_links tr .main_links_icons {
-  //       width: auto;
-  //       opacity: 1;
-  //       display: inline-flex;
-  //       font-size: 12px;
-
-  //   }
-
   .main_all_container {
     overflow: hidden;
   }
@@ -185,7 +161,6 @@
   }
 
   .menu_top {
-    //   justify-content: space-around;
     justify-content: space-between;
   }
 
@@ -216,15 +191,12 @@
   }
 
   .links_main_cont {
-    width: 100%!important;
+    width: 100% !important;
     align-items: flex-start;
-
-    // margin: 0!important;
   }
 
   .links_main_cont .links_tabs {
     text-align-last: center;
-    // align-self: flex-end;
   }
 
   .main_links tbody {
@@ -234,13 +206,11 @@
   .banners_main_cont {
     width: inherit;
     align-items: flex-start;
-    width: 98%!important;
-    // margin: 0!important;
+    width: 98% !important;
   }
 
   .banners_main_cont .banners_tabs {
     text-align-last: center;
-    // align-self: flex-end;
   }
 
   .main_banners tbody {
@@ -255,8 +225,8 @@
     z-index: 2;
   }
 
-  .display_cont{
-    width: 100%!important;
+  .display_cont {
+    width: 100% !important;
   }
 
   .main_all_container {
@@ -264,28 +234,8 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 1024px) and (max-width: 1920px) {
+}
 
 //   .menu_top_icon1{
 
