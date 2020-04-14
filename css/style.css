@@ -860,7 +860,14 @@ body i {
     padding: 5px;
   }
   .nav_header {
-    padding: 10px;
+    padding: 10px 0;
+    margin-bottom: -35px;
+  }
+  .nav_manager {
+    margin-top: 20px;
+  }
+  .info_man {
+    top: -7px;
   }
   .main_all_container .links_main_cont {
     margin: 0;
