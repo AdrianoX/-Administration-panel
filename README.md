@@ -1,7 +1,7 @@
 
 # 
 <p align="center">
-  <b>Administration panel</b>
+  <b><b><b>Administration panel</b></b></b>
 </p>
 
 
