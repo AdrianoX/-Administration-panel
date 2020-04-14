@@ -3,12 +3,9 @@
   <b> Project ... </b>
 </p>
 
-
-#
 <p align="center">
   <b>Administration panel</b>
 </p>
-
 
 #
 <p align="center">
