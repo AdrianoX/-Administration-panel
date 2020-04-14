@@ -1,6 +1,6 @@
 
-<p align="center">
-## Administration panel
+## <p align="center">
+Administration panel
 </p>
 
 
