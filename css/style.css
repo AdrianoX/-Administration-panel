@@ -633,6 +633,7 @@ body i {
   width: 70%;
   /* border-top: 0.5px solid #979797 ; */
   border-top-width: 100%;
+  font-size: 12px;
 }
 
 .table_options tr td {
@@ -694,6 +695,7 @@ body i {
   -ms-grid-row-align: center;
   align-self: center;
   margin: 50px auto;
+  padding-left: 25px;
 }
 
 .chart_statistic img {
@@ -949,18 +951,20 @@ body i {
   .menu_top_icon1 .wallet {
     border: none;
   }
+  .myChart {
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: -5px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .gen_cont {
-    width: 100%;
+    width: 75%;
   }
   .links_main_cont {
     width: 100% !important;
     align-items: flex-start;
-  }
-  .links_main_cont .links_tabs {
-    text-align-last: center;
   }
   .main_links tbody {
     width: 700px;
@@ -987,6 +991,19 @@ body i {
   }
   .main_all_container {
     width: 98%;
+  }
+  .myChart {
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: -5px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .myChart {
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: -5px;
   }
 }
 
@@ -1144,7 +1161,7 @@ body i {
 }
 
 .main_links tr td {
-  width: 420px;
+  width: 325px;
   padding: 10px 0;
   margin-left: 10px;
 }
@@ -1239,7 +1256,7 @@ body i {
 }
 
 .main_banners tr td {
-  width: 420px;
+  width: 325px;
   padding: 10px 0;
   margin-left: 10px;
 }

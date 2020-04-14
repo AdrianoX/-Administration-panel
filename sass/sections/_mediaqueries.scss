@@ -81,12 +81,12 @@
     margin-bottom: -35px;
   }
 
-  .nav_manager{
-      margin-top: 20px;
+  .nav_manager {
+    margin-top: 20px;
   }
 
   .info_man {
-      top: -7px;
+    top: -7px;
   }
 
   .main_all_container .links_main_cont {
@@ -192,11 +192,17 @@
   .menu_top_icon1 .wallet {
     border: none;
   }
+
+  .myChart {
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: -5px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .gen_cont {
-    width: 100%;
+    width: 75%;
   }
 
   .links_main_cont {
@@ -204,9 +210,9 @@
     align-items: flex-start;
   }
 
-  .links_main_cont .links_tabs {
-    text-align-last: center;
-  }
+//   .links_main_cont .links_tabs {
+//     text-align-last: center;
+//   }
 
   .main_links tbody {
     width: 700px;
@@ -241,7 +247,18 @@
   .main_all_container {
     width: 98%;
   }
+
+  .myChart {
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: -5px;
+  }
 }
 
-// @media (min-width: 1024px) and (max-width: 1920px) {
-// }
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .myChart {
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: -5px;
+  }
+}
