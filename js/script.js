@@ -21,7 +21,7 @@ document.querySelector('.hamburger-btn').addEventListener('click', function() {
 document.querySelector('.nav_main_menu').addEventListener('click', function() {
   document.querySelector('.sidenav').classList.remove('active');
 });
-
+ 
 var ctx = document.getElementById('myChart').getContext('2d');
 
 // eslint-disable-next-line no-unused-vars
