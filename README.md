@@ -1,5 +1,7 @@
 
-
+<p align="center">
+## Administration panel
+</p>
 
 
 
@@ -7,5 +9,5 @@
 <a href="https://adrianox.github.io/-Administration-panel//"><img src="images/chartStat.png" title="chart" alt="chart1"></a>
 </p>
 
-## Administration panel
+
 
