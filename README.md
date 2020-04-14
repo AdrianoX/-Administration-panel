@@ -8,4 +8,4 @@
 </p>
 
 ## Administration panel
-img src="images/chartStat.png" 
+
