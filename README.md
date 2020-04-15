@@ -9,7 +9,7 @@
 
 #
 <p align="center">
-<a href="https://adrianox.github.io/-Administration-panel//"><img src="images/chartStat.png" title="chart" alt="chart1"></a>
+<a href="https://adrianox.github.io/-Administration-panel//"><img src="images/chartStat.png" title="Administration panel" alt="chart1"></a>
 </p> 
  
 
