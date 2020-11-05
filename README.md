@@ -5,6 +5,7 @@
 
 <p align="center">
   <b>Administration panel</b>
+   <br>
   <b>HTML, CSS and JavaSript practise in single project.</b>
 </p>
 
